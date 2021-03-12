@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class exercicio4 {
+	
+	
+		public static void main (String [] arg){
+		Scanner ler= new Scanner(System.in);
+		
+		int A,B,C,R,S;
+		float D;
+		
+		System.out.println("digite valor de: A ");
+		A = ler.nextInt(); 
+		System.out.println("digite valor de: B ");
+		B = ler.nextInt(); 
+		System.out.println("digite valor de: C ");
+		C = ler.nextInt(); 
+		
+		
+
+	    R = (a+b);
+	    S = (b+c);
+	    R = (matematica.potencia(a+b, 2));
+	    S = (matematica.potencia(b+c, 2));
+	    D = (matematica.raiz ((r + s), 2));
+	    Object matematica;
+		D = (matematica.raiz (( matematica.potencia),(a+b), 2) + matematica.potencia((b+c),2));
+		
+		System.out.println("O resultado do r é: ");	
+	}
+
+}

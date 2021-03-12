@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class exercicio2 {
+	
+	public static void main (String [] arg){
+		
+		int idade, ano, anoemDias, quantidadeMeses;
+		
+		System.out.println("Digite sua idade:");
+		 Scanner ler =new Scanner (System.in);
+		 
+		 System.out.println ("Voce tem ", idade, " anos e " ,quantidadeMeses, " meses e ", anoemDias, " dias de vida");
+		 
+	}
+	
+	
+
+}

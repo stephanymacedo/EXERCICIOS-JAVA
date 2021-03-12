@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class exercicio2 {
+	
+	public static void main (String [] arg){
+		Scanner ler= new Scanner(System.in); 
+		
+		int idade, ano, anoemDias, quantidadeMeses;
+		
+		System.out.println("Digite sua idade:");
+		idade = ler.nextInt(); 
+		 
+		 			ano = 365;
+					anoemDias = idade * ano;
+					quantidadeMeses = anoemDias / 30;
+	
+		 System.out.println ("Voce tem "+ idade + " anos e " + quantidadeMeses + " meses e "+ anoemDias + " dias de vida");
+		 
+	}
+	
+	
+
+}
